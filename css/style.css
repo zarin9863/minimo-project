@@ -1,0 +1,251 @@
+
+/*             
+           Master Stylesheet
+=====================================
+     Template Name : Minimo 
+     Author:Nusrat Zarin Khan 
+     Author Url:https://nusratzarin.com
+     Descriptions:PSD TO HTML Practise
+     Version:1.0.0
+     Tag:Blog
+
+*/
+
+
+/*
+           Table of Contents
+====================================
+    1.Typrography 
+    2.Header
+    3.Blog
+    4.Newsletter
+    5.Footer
+   
+
+
+*/
+
+/*======================================
+               Typrography
+========================================*/
+@import url('https://fonts.googleapis.com/css?family=Inconsolata|Playfair+Display:400,400i,900|Ubuntu:300&display=swap');
+
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: #626262;
+}
+h1,
+h1,
+h3,
+h4,
+h5,
+h6{
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 35px;
+	margin: 0;
+}
+p{
+	margin: 0;
+
+}/*======================================
+               Header
+========================================*/
+.container{
+	width: 90%;
+	margin: 0 auto;
+	
+}
+.header{
+	display: flex;
+	justify-content: space-between;
+	padding: 40px 0;
+	align-items: center;
+}
+.logo{
+	width: 10%;
+	
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	width: 70%;
+	
+}
+.menu ul{
+	text-align: right;
+	margin: 0;
+}
+.menu ul li{
+	display: inline-block;
+}
+.menu ul li a{
+      text-transform: uppercase;
+      text-decoration: none;
+      color: #626262;
+      padding: 0 60px;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+.menu ul li a:hover{
+	color:#000000;
+	transition: .3s all ease-in-out;
+}
+.banner{
+	background-image: url(../images/banner.jpg);
+	height: 600px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+/*======================================
+               Blog
+========================================*/
+#blog{
+	width: 80%;
+	margin: 0 auto;
+}
+.blog{
+	margin: 100px 0 0;
+}
+.catagories p{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 19px;
+	color: #b4ad9e;
+	text-transform: uppercase;
+
+}
+.title{
+	padding: 30px 0;
+} 
+.content{
+	line-height: 24px;
+	padding-bottom: 50px;
+}
+.blog-part{
+	display: flex;
+	justify-content: space-between;
+	margin: 130px 0;
+}
+.lifestyle,.photodairy{
+	width: 47%;
+}
+.blog-image{
+	padding-bottom: 30px;
+}
+.blog-image img{
+	width: 100%;
+}
+/*======================================
+               Newsletter
+========================================*/
+#newsletter{
+	background-color: #f0f0f0;
+	padding: 70px 0;
+	margin: 0 auto;
+}
+.newsletter{
+	text-align: center;
+	margin: 0 auto;
+	width: 28%;
+	padding: 30px 0;
+}
+input[type=email]{
+	width: 100%;
+	padding: 10px 45px 10px 5px;
+	border:none;
+	background-color: transparent;
+}
+input[type=email]:focus{
+	outline: none;
+}
+input[type=email]::placeholder{
+	color: #626262;
+	font-size: 14px;
+}
+.submit{
+	position: absolute;
+	border:none;
+	cursor: pointer;
+	top:11px ;
+	bottom:;
+	left: ;
+	right: 0;
+}
+.submit:focus{
+	outline: none;
+}
+.form{
+	position: relative;
+	border-bottom: 1px solid #626262;
+}
+.button button{
+	border: none;
+	border:1px solid #626262;
+	padding: 20px 30px;
+	text-transform: capitalize;
+    font-size: 20px;
+    background-color: transparent;
+    cursor: pointer;
+
+}
+.button button:hover{
+	background-color: #626262;
+	color: #ffffff;
+	transition: .3s all ease-in-out;
+}
+.button {
+	text-align: center;
+}
+.button button:focus{
+	outline: none;
+}
+.last-section{
+	margin-bottom: 300px !important;
+}
+/*======================================
+               Footer
+========================================*/
+footer{
+    background-color: #f0f0f0;
+	
+}
+.footer{
+	width: 90%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	padding: 50px 0;
+	
+
+}
+.terms ul{
+	padding: 0;
+
+}
+.terms li, .social li{
+	display: inline-block;
+}
+.terms a, .social a{
+	color: #626262;
+	text-decoration: none;
+	padding: 0 15px ;
+
+}
+.terms ul li:first-child a{
+	padding-left: 50px;
+}
+.social ul li:last-child a{
+	padding-right: 50px;
+}
